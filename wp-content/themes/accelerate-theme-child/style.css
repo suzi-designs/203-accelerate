@@ -55,9 +55,9 @@ aside.case-study-sidebar {
 	float: left; 
 }
 
-section.images {
+div.case-study-images {
 	width: 75%; 
-	float: right; 
+	float: right;
 	
 }
 
