@@ -77,19 +77,52 @@ li.individual-featured-work h3 {
 
 /**** Case study ****/
 
-aside.case-study-sidebar {
-	width: 25%; 
-	max-width: 300px; 
-	float: left; 
-}
 
-div.case-study-images {
-	width: 75%; 
-	float: right;
+
+artical.case-study {
+	overflow: auto; 
+	display: block; 
+	padding-bottom: 10px; 
+	margin-bottom: 30px; 
+
 	
 }
 
-section.images img.case-study{
+
+aside.case-study-sidebar {
+	width: 30%; 
+	max-width: 300px;
+	padding: 59px 15px;  
+	float: left; 
+	clear:both;
+}
+
+aside.case-study-sidebar h2 {
+	margin: 0; 
+	font-weight: 600; 
+}
+
+aside.case-study-sidebar h5 {
+	color: gray; 
+	font-size: 1em; 
+	margin-top: 10px; 
+	font-weight: 300; 
+}
+
+div.case-study-images img {
+	width: 68%; 
+/* 	float: right; */
+	clear: both;
+	
+}
+
+
+img.case-study{
 	display: block; 
 	margin: 0 auto;
+	width: 100%; 
+	height: auto; 
 }
+
+
+

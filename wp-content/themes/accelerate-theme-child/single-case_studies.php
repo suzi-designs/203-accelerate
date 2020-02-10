@@ -25,7 +25,7 @@ get_header(); ?>
 					<aside class="case-study-sidebar">
 						<h2><?php the_title(); ?></h2>
 						<h5><?php echo $services; ?></h5>
-						<h6>Client:<?php echo $client; ?></h6>
+						<h6>Client: <?php echo $client; ?></h6>
 			
 						<?php the_content(); ?>
 						
@@ -45,12 +45,13 @@ get_header(); ?>
 							echo wp_get_attachment_image( $image_3, $size);
 						} ?>	
 					</div>
-					
+				</artical>
 					
 			<?php endwhile; // end of the loop. ?>
+				
 			
 			<nav id="navigation" class="container">
-				<div class="left"><a href="<?php echo site_url('/blog/') ?>">&larr; <span>Back to Work</span></a></div>
+				<div class="left"><a href="<?php echo site_url('home/') ?>">&larr; <span>Back to Work</span></a></div>
 			</nav>
 		</div><!-- .main-content -->
 
