@@ -158,5 +158,58 @@ i.fab {
 	
 }
 
+/*** Contact Page Form with Ninja Forms Plugin ***/
+
+h2.contact-title {
+	width: 90%;
+	max-width: 700px;
+	font-size: 2em;
+	margin: 0 auto;
+}
+
+p.contact-intro {
+	width: 90%;
+	max-width: 700px;
+	margin: 0 auto 50px auto;
+	font-size: 1.2em;
+	color: #3b3b3b;
+}
+
+div.nf-form-content {
+	width: 90%;
+	max-width: 700px;
+
+}
+
+div#nf-field-1-container,
+div#nf-field-2-container{
+	display: inline-block;
+	width: 45%;
+	clear: inherit;
+}
 
 
+div#nf-field-2-container{
+	float: right;
+}
+
+
+input#nf-field-4 {
+	float: right;
+	background-color: #45ac9d;
+	width: 250px; 
+}
+
+div.nf-form-fields-required,
+span.ninja-forms-req-symbol{
+	display: none; 
+}
+
+
+/*** Contact --Thank You Page ***/
+
+div#thank-you-button{
+	display: block;
+	background-color: red;
+	height: 100px; 
+}
