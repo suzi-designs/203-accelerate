@@ -208,8 +208,19 @@ span.ninja-forms-req-symbol{
 
 /*** Contact --Thank You Page ***/
 
-div#thank-you-button{
+a.thank-you-button{
+	font: 700 1em 'Montserrat', 'OpenSans', Arial, sans-serif;
 	display: block;
-	background-color: red;
-	height: 100px; 
+	clear:both;
+	background-color: #45ac9d;
+	color: #fff;
+	text-align: center;
+	width: 250px;
+	height: 50px; 
+	padding-top: 15px;
+	margin: 0 auto;
+}
+
+a.thank-you-button:hover, a.thank-you-button:active {
+	color: #bbb;
 }
