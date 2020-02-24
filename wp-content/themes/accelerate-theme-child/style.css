@@ -208,7 +208,7 @@ span.ninja-forms-req-symbol{
 
 /*** Contact --Thank You Page ***/
 
-a.thank-you-button{
+a.thank-you-button, a.about-button{
 	font: 700 1em 'Montserrat', 'OpenSans', Arial, sans-serif;
 	display: block;
 	clear:both;
@@ -221,6 +221,109 @@ a.thank-you-button{
 	margin: 0 auto;
 }
 
-a.thank-you-button:hover, a.thank-you-button:active {
+a.thank-you-button:hover, a.thank-you-button:active, 
+a.about-button:hover, a.about-button:active {
 	color: #bbb;
 }
+
+
+
+/*** About Page Styles ***/
+
+.about-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: 250px;
+    
+}
+
+.about-page h3 {
+	width: 625px; 
+	margin: 0 auto; 
+    padding: 40px 0 50px 0;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+section.about-intro {
+	width: 500px;
+	margin: 0 auto; 
+	text-align: center; 
+
+}
+
+section.about-intro h4 {
+	text-transform: uppercase;
+}
+
+section.service-categories {
+	width: 900px;
+	margin: 0 auto; 
+/* 	border: 1px red dotted;  */
+}
+
+ul.category-list{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+ul.category-list li {
+	padding: 10px; 0;
+	display: flex;  
+	align-items: center;
+
+}
+
+
+ul.category-list img {
+	width: 175px;
+	height: 175px;
+	margin: 5px; 
+}
+
+ul.category-list li:nth-of-type(2){
+	flex-direction: row-reverse;
+	}
+	
+	ul.category-list li:nth-of-type(4){
+	flex-direction: row-reverse;
+	}
+	
+
+
+ul.category-list li div {
+	padding: 0 20px;
+}
+
+ul.category-list li p  {
+	display: inline-block;
+	font-size: .9em;
+	margin-top: 0;
+
+}
+ul.category-list li h4  {
+	display: inline-block;
+	margin: 10px 0;
+
+}
+
+div.bottom-nav h4, a.about-button {
+	display: inline-block; 
+}
+
+div.bottom-nav h4 {
+	margin: 0 20px;
+}
+
+a.about-button {
+	width: 150px; 
+	margin: 20px 0 15px 0;
+}
+
+
+
+
+
+
+
+

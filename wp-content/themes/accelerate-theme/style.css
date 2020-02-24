@@ -581,7 +581,7 @@ body {
 /* End SINGLE POST STYLES */
 
 /* HOMEPAGE STYLES */
-.home-page {
+.home-page  {
     background: url("img/hero-image.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
     height: auto;
     margin: 0 0 5em;
