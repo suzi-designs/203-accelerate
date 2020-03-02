@@ -322,8 +322,29 @@ a.about-button {
 
 
 
+/*** 404  page styles ***/
 
+div.container-404 {
+	width: 90%;
+	max-width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
 
+div.container-404 h1 {
+	font-family: 'Josefin Sans';
+	font-size: 2em; 
+	margin: 15px 0;
+	font-style: 300;
+	color: #45ac9d;
+/* 	font-variant: small-caps; */
+}
+
+div.container-404 h2 {
+	font: italic 400 1.5em/1.8em 'Josefin Sans';
+	margin: 15px 0;
+
+}
 
 
 
