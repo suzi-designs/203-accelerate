@@ -61,5 +61,14 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
+	
+<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+	
+	<div id="secondary" class="widget-area" role="complementary">
+		<h4 class="twitter-title">Recent tweets </h4>
+		<?php dynamic_sidebar( 'sidebar-2' ); ?>
+	</div>
+	
+<?php endif; ?>
 
 <?php get_footer(); ?>

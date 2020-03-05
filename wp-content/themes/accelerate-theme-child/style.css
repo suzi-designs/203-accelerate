@@ -52,9 +52,10 @@ li.individual-featured-work h3 {
 
 	
 .blog-post {
-	width: 50%;
+	width: 45%;
 	float: left;
 	margin-bottom: 2em;
+
 }
 
 .blog-post h4 {
@@ -66,6 +67,7 @@ li.individual-featured-work h3 {
 
 .blog-post h3 {
 	font-size: 1.5em;
+	margin-top: 10px;
 }
 
 .read-more-link {
@@ -74,6 +76,43 @@ li.individual-featured-work h3 {
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/**** twitter module ****/
+
+
+/**sidebar for twitter module on front page ***/
+
+h4.twitter-title{
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+
+h4.widget-title {
+	font-size: 1.5em; 
+	margin-top: 10px;
+}
+
+div.widget-area {
+	width: 40%; 
+	margin: 0 30px;
+	float: left; 
+	}
+	
+div.widget-area ul li {
+	list-style: none;
+	margin-left: 0; 
+	}
+	
+div.gotw_link_user a {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+
+	}
 
 /**** Case study ****/
 
