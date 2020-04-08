@@ -385,5 +385,39 @@ div.container-404 h2 {
 
 }
 
+/*** Sidebar widget area ***/
+aside#mc4mp_form_widget-2 {
+	width: 300px; 
+}
+
+#sidebar .widget {
+	padding: 0; 
+	width: 100%; 
+}
+
+div.signup-container {
+	display: block;
+	width: 100%; 
+}
 
 
+div.signup-container input {
+	display: block; 
+	width: 300px; 
+}
+
+div.signup-container p {
+	font-size: 12px; 
+}
+
+div.signup-container label {
+	font-size: 12px; 
+}
+
+
+input.subscribe {
+	display: block; 
+	background-color: #45ac9d;
+	width: 100%;
+	padding: 5px 0; 
+}
