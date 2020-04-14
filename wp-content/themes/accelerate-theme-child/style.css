@@ -104,6 +104,7 @@ div.widget-area {
 div.widget-area ul li {
 	list-style: none;
 	margin-left: 0; 
+	max-width: 400px; 
 	}
 	
 div.gotw_link_user a {
