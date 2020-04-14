@@ -82,6 +82,14 @@ li.individual-featured-work h3 {
 
 /**sidebar for twitter module on front page ***/
 
+div.widget-area {
+	width: 40%;
+	max-width: 400px;
+	margin: 0 0 0 70px;
+	border: none; 
+	float: left; 
+	}
+
 h4.twitter-title{
 	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
@@ -95,16 +103,11 @@ h4.widget-title {
 	margin-top: 10px;
 }
 
-div.widget-area {
-	width: 40%;
-	max-width: 400px;
-	margin: 0 0 0 70px;
-	float: left; 
-	}
+
 	
 div.widget-area ul li {
 	list-style: none;
-	margin-left: 0; 
+	margin: 10px 0 10px 0; 
 	max-width: 400px; 
 	}
 	
