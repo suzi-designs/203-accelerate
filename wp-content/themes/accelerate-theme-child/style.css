@@ -96,8 +96,9 @@ h4.widget-title {
 }
 
 div.widget-area {
-	width: 40%; 
-	margin: 0 30px;
+	width: 40%;
+	max-width: 400px;
+	margin: 0 0 0 70px;
 	float: left; 
 	}
 	
